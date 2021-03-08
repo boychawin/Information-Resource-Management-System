@@ -1,0 +1,5 @@
+เชื่อมต่อฐานข้อมูลจะมี 2 ไฟล์
+    connection.php
+    db_connect.php
+
+โฟลเดอร์เก็บโค้ด pages
