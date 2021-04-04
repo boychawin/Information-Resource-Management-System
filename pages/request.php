@@ -71,7 +71,7 @@ if (isset($_POST['request'])) {
         $errors[] = urlencode('โปรดเลือกวันที่สิ้นสุด');
     }
     $date_min = date('Y-m-d H:i:s');
-    $refined_date_min = intval(implode('', explode('-', $date_min)));
+    // $refined_date_min = intval(implode('', explode('-', $date_min)));
     $refined_date_start = intval(
         implode('', explode('-', $booking_start_date))
     );
@@ -79,7 +79,7 @@ if (isset($_POST['request'])) {
     $refined_date_end = intval(implode('', explode('-', $booking_end_date)));
 
     $range = $refined_date_end - $refined_date_start;
-    $rangess = $refined_date_min - $refined_date_start;
+    // $rangess = $refined_date_min - $refined_date_start;
 
     $min = date('Y-m-d');
     $d = date('H:i:s');

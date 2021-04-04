@@ -1,8 +1,8 @@
 <?php
 
-define('DB_NAME', 'irms');
+define('DB_NAME', 'u458562086_db_user');
 
-define("DB_USER", "root");
+define("DB_USER", "u458562086_root");
 
 define("DB_PASS", "");
 

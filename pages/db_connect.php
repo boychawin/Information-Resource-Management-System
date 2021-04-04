@@ -5,9 +5,9 @@ function connect()
     // เริ่มต้นส่วนกำหนดการเชิ่อมต่อฐานข้อมูล //
     $db_config = [
         'host' => 'localhost', // กำหนด host
-        'user' => 'root', // กำหนดชื่อ user
+        'user' => 'u458562086_root', // กำหนดชื่อ user
         'pass' => '', // กำหนดรหัสผ่าน
-        'dbname' => 'irms', // database
+        'dbname' => 'u458562086_db_user', // database
         'charset' => 'utf8', // กำหนด charset
     ];
     // สิ้นสุดดส่วนกำหนดการเชิ่อมต่อฐานข้อมูล //
