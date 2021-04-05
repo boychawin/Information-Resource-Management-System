@@ -1,1 +1,1 @@
-<link rel="icon" type="image/png" href="../images/Snru_3.png" />
+<link rel="icon" type="image/png" href="https://boychawin.com/logo.png" />

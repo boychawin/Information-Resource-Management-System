@@ -2,7 +2,7 @@
 session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
-<title> หน้าหลัก | ระบบจัดการทรัพยากรสารสนเทศ</title>
+<title> หน้าหลัก | แจกระบบจองห้อง/โต๊ะ boychawin.com</title>
 
 <head>
     <meta name="author" content="Group One">
@@ -10,10 +10,10 @@ session_start(); ?>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta property="og:url" content="https://boychawin.com/irms/pages/index" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="irms - ระบบจัดการทรัพยากรสารสนเทศ" />
+    <meta property="og:title" content="irms - แจกระบบจองห้อง/โต๊ะ boychawin.com" />
     <meta property="og:description"
-        content="ระบบจัดการทรัพยากรสารสนเทศ กรณีศึกษา อาคารบรรณราชนครินทร์ สำนักวิทยบริการและเทคโนโลยี สารสนเทศ มหาวิทยาลัยราชภัฏสกลนคร" />
-    <meta property="og:image" content="https://boychawin.com/irms/images/สำนักวิทยบริการและเทคโนโลยีสารสนเทศ.jpg" />
+        content="แจกระบบจองห้อง/โต๊ะ boychawin.com" />
+    <meta property="og:image" content="https://boychawin.com/logo.png" />
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
@@ -26,8 +26,8 @@ session_start(); ?>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <!-- <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"> -->
-    <link rel="icon" type="image/png" href="../images/Snru_3.png" />
-    <link rel="shortcut" href="../images/irms-arit1.png" />
+    <link rel="icon" type="image/png" href="https://boychawin.com/logo.png" />
+    <link rel="shortcut" href="https://boychawin.com/logo.png" />
 
 
 
@@ -215,7 +215,7 @@ session_start(); ?>
             'transitionIn': 'fade',
             'transitionOut': 'fade',
             'type': 'iframe',
-            'href': 'https://www.boychawin.com//irms/images/ru.png' // link ที่อยากให้แสดง
+            'href': 'https://www.boychawin.com/' // link ที่อยากให้แสดง
         });
     });
     </script> <?php } ?>

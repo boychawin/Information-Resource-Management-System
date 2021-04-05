@@ -3,7 +3,7 @@
 
 <head>
     <title> </title>
-    <link rel="icon" type="image/png" href="../images/Snru_3.png" />
+    <link rel="icon" type="image/png" href="https://boychawin.com/logo.png" />
     <meta charset="utf-8">
     <meta name="author" content="Group One">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -252,13 +252,10 @@
                 <div class="container mb-12 p-4">
                     <h4 class="extra-sm" class="text-center">
                         ยินดีต้อนรับคุณ :&nbsp;<?php echo $row->fname; ?>&nbsp;<?php echo $row->lname; ?></h1>
-                        <p></p>
-                        <p></p>
-                        <p>
-                        </p>
+                
                         <h5></h5>
                         <quote class="float-right mute muted">
-                            <i> <img src="../images/aritsnru.jpg" class="img-thumbnail" alt="Nature"
+                            <i> <img src="../images/boychawin.com_logo.png" class="img-thumbnail" alt="Nature"
                                     style="width:100%"></i><br>
                             <span></span><br>
 

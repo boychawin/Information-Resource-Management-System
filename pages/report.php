@@ -8,7 +8,7 @@ session_start(); ?>
     <!-- Bootstrap Core CSS -->
     <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <link rel="icon" type="image/png" href="../images/Snru_3.png" />
+    <link rel="icon" type="image/png" href="https://boychawin.com/logo.png" />
 
     <!-- DataTables CSS -->
     <link href="../bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css"

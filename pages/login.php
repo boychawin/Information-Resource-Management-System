@@ -1,6 +1,6 @@
 <h1 class='text-center hide'>หน้าหลัก | </h1>
 <?php
-include_once 'db.php';
+
 if (isset($_GET['action']) && $_GET['action'] == 'login') {
     if (isset($_GET['type']) && $_GET['type'] == 'admin') {
         if (isset($_SESSION['admin-username'])) {

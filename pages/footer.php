@@ -9,15 +9,13 @@
                 </li>
                 <li>
                     <b>
-                        <font class="extra-sm"> อาคารบรรณราชนครินทร์ (ห้องสมุด) </font>
+                        <font class="extra-sm"> boychawin.com </font>
                     </b>
                 </li>
                 <li>
-                    <font class="extra-sm"> โทรศัพท์ 0-4297-0048 หมายเลขภายใน 231, 235 </font>
+                    <font class="extra-sm"> boychawin.com@gmail.com </font>
                 </li>
-                <li>
-                    <font class="extra-sm">โทรสาร 0-4297-0039 E-Mail : arit@snru.ac.th</font>
-                </li>
+              
             </ul>
         </div>
         <div class="col-sm-4 mt-20">
@@ -29,7 +27,7 @@
                 </li>
                 <li>
                     <b>
-                        <font class="extra-sm"> อาคารบรรณราชนครินทร์ </font>
+                        <font class="extra-sm"> boychawin.com </font>
                     </b>
                 </li>
                 <li>
@@ -39,7 +37,7 @@
                     <font class="extra-sm">วันเสาร์ - วันอาทิตย์ เวลา 08.00 น. - 16.45 น.</font>
                 </li>
                 <b>
-                    <font color="red" class="extra-sm"> อาคารบรรณราชนครินทร์ </font>
+                    <font color="red" class="extra-sm"> boychawin.com </font>
                 </b>
                 <b>
                     <font color="red" class="extra-sm"> ปิดให้บริการทุกวันหยุดนักขัตฤกษ์ </font>

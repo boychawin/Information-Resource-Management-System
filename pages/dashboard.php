@@ -3,7 +3,7 @@
 <title> </title>
 
 <head>
-    <link rel="icon" type="image/png" href="../images/Snru_3.png" />
+    <link rel="icon" type="image/png" href="https://boychawin.com/logo.png" />
     <meta charset="utf-8">
     <meta name="author" content="Group One">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
