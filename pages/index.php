@@ -66,21 +66,6 @@ session_start(); ?>
     <script src="//cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
     <link href="//cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" rel="stylesheet">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75876762-1"></script>
-
-
-
-    <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-75876762-1');
-    </script>
     <!-- Custom Theme JavaScript -->
     <script src='../lib/moment.min.js'></script>
     <script src='../fullcalendar.min.js'></script>

@@ -44,18 +44,7 @@
     <script src="../bower_components/DataTables/media/js/jquery.dataTables.min.js"></script>
     <script src="../bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js"></script>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75876762-1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-75876762-1');
-    </script>
     <!-- Custom Theme JavaScript -->
     <script src='../lib/moment.min.js'></script>
     <script src='../fullcalendar.min.js'></script>
