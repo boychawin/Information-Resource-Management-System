@@ -48,9 +48,9 @@
             <ul class="footer-list text-center">
 
 
-                <!-- <li class='nav-item'> <a title='facebook' target ='_blank'href='https://www.facebook.com/ARIT.SNRU'>  <i class='fa fa-facebook' aria-hidden='true'></i></a></li>
-                            <li class='nav-item'><a title='youtube'target ='_blank' href='https://www.youtube.com/channel/UC6oOGWkRjtpyT41jXX4lFmA?view_as=subscriber'><i class='fa fa-youtube-play' aria-hidden='true'></i></a></li>
-                            <li class='nav-item'> <a title='line'target ='_blank' href='http://line.me/ti/p/~@hsy1992t' ><i class='fa fa-external-link' aria-hidden='true'></i></a></li>
+                <!-- <li class='nav-item'> <a title='facebook' target ='_blank'href='https://www.facebook.com/boychawincom'>  <i class='fa fa-facebook' aria-hidden='true'></i></a></li>
+                            <li class='nav-item'><a title='youtube'target ='_blank' href='https://www.youtube.com/channel/UC4JgG8eoenTbswfYwJ8Z6Gg?view_as=subscriber'><i class='fa fa-youtube-play' aria-hidden='true'></i></a></li>
+                            <li class='nav-item'> <a title='line'target ='_blank' href='https://twitter.com/boychawin' ><i class='fa fa-external-link' aria-hidden='true'></i></a></li>
                             <li> -->
                 <li>
                     <h5 class="text-center">
@@ -58,15 +58,15 @@
                     </h5>
                 </li>
                 <li>
-                    <a title='facebook' target='_blank' href='https://www.facebook.com/ARIT.SNRU'> <img
+                    <a title='facebook' target='_blank' href='https://www.facebook.com/boychawincom'> <img
                             class="alignnone wp-image-10569 size-wcicon"
                             src="../images/icons/Facebook-icon-20-48x48.png" sizes="(max-width: 48px) 100vw, 48px"> </a>
                     <a title='youtube' target='_blank'
-                        href='https://www.youtube.com/channel/UC6oOGWkRjtpyT41jXX4lFmA?view_as=subscriber'><img
+                        href='https://www.youtube.com/channel/UC4JgG8eoenTbswfYwJ8Z6Gg?view_as=subscriber'><img
                             class="alignnone wp-image-10569 size-wcicon"
                             src="../images/icons/Graphics-Vibe-Classic-3d-Social-Youtube-48x48.ico"
                             sizes="(max-width: 48px) 100vw, 48px"></a>
-                    <a title='line' target='_blank' href='http://line.me/ti/p/~@hsy1992t'><img
+                    <a title='line' target='_blank' href='https://twitter.com/boychawin'><img
                             class="alignnone wp-image-10569 size-wcicon" src="../images/icons/line-icon-48x48.png"
                             sizes="(max-width: 48px) 100vw, 48px"></a>
                 </li>
