@@ -96,7 +96,7 @@ if (!isset($_POST['login-type']) || $_POST['login-type'] == 'admin') {
     } else {
         header(
             'Location:index2.php?action=login&type=admin&error=' .
-                join($errors, '<br>')
+                join($errors)
         );
         echo "error=$error";
     }
@@ -191,7 +191,7 @@ if (!isset($_POST['login-type']) || $_POST['login-type'] == 'admin') {
             echo "error=$error";
         }
     } else {
-        header('Location:index.php?tab=2&error=' . join($errors, '<br>'));
+        header('Location:index.php?tab=2&error=' . join($errors));
         echo "error=$error";
     }
 } else {

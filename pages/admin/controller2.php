@@ -76,19 +76,19 @@ if (isset($_POST['btnSubmituser'])) {
                 $errors[] = urlencode('เกิดข้อผิดพลาดกลับไปที่ลองอีกครั้ง !!');
                 redirect_user(
                     '../dashboard.php?tab=9&error=' .
-                        join($errors, urlencode('<br>'))
+                        join($errors)
                 );
             }
         } else {
             $errors[] = urlencode('ใส่ข้อมูลให้ครบถ้วน !!');
             redirect_user(
                 '../dashboard.php?tab=9&error=' .
-                    join($errors, urlencode('<br>'))
+                    join($errors)
             );
         }
     } else {
         redirect_user(
-            '../dashboard.php?tab=9&error=' . join($errors, urlencode('<br>'))
+            '../dashboard.php?tab=9&error=' . join($errors)
         );
     }
 }
@@ -165,18 +165,18 @@ if (isset($_POST['btnSubmitadmin'])) {
                 $errors[] = urlencode('เกิดข้อผิดพลาดกลับไปที่ลองอีกครั้ง !!');
                 redirect_user(
                     '../admin.php?tab=10&error=' .
-                        join($errors, urlencode('<br>'))
+                        join($errors)
                 );
             }
         } else {
             $errors[] = urlencode('ใส่ข้อมูลให้ครบถ้วน !!');
             redirect_user(
-                '../admin.php?tab=10&error=' . join($errors, urlencode('<br>'))
+                '../admin.php?tab=10&error=' . join($errors)
             );
         }
     } else {
         redirect_user(
-            '../admin.php?tab=10&error=' . join($errors, urlencode('<br>'))
+            '../admin.php?tab=10&error=' . join($errors)
         );
     }
 }

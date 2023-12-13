@@ -14,7 +14,7 @@ if (isset($_POST['recover_password'])) {
 
     if (!isset($_POST['memberemail']) || $_POST['memberemail'] == '') {
         $errors[] = urlencode('ต้องระบุที่อยู่อีเมล');
-        header('Location:index.php?tab=9&error=' . join($errors, '<br>'));
+        header('Location:index.php?tab=9&error=' . join($errors));
 
         echo "<script type='text/javascript'>";
         echo "alert('ต้องระบุที่อยู่อีเมล');";
@@ -29,7 +29,7 @@ if (isset($_POST['recover_password'])) {
         preg_match('/[^a-zA-Z0-9.@_-]/', $_POST['memberemail'])
     ) {
         $errors[] = urlencode('อีเมลไม่ถูกต้อง');
-        header('Location:index.php?tab=9&error=' . join($errors, '<br>'));
+        header('Location:index.php?tab=9&error=' . join($errors));
         echo "<script type='text/javascript'>";
         echo "alert('อีเมลไม่ถูกต้อง');";
         echo 'window.history.back(1);';
@@ -49,7 +49,7 @@ if (isset($_POST['recover_password'])) {
         if ($rs->num_rows <= 0) {
             //  $errors[] = urlencode("ไม่พบอีเมล หรืออีเมลไม่ถูกต้อง");
             $errors[] = urlencode('ไม่พบอีเมล หรืออีเมลไม่ถูกต้อง');
-            header('Location:index.php?tab=9&error=' . join($errors, '<br>'));
+            header('Location:index.php?tab=9&error=' . join($errors));
 
             echo "<script type='text/javascript'>";
             echo "alert('ไม่พบอีเมล หรืออีเมลไม่ถูกต้อง');";

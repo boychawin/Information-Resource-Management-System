@@ -30,6 +30,6 @@ include_once 'functions.php';
     } else {
         $errors[] = urlencode('เกิดข้อผิดพลาดกลับไปที่การอัปเดตอีกครั้ง 2222!!');
         redirect_user(
-            'admin.php?tab=17&error=' . join($errors, urlencode('<br>'))
+            'admin.php?tab=17&error=' . join($errors)
         );
     }

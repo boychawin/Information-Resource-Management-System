@@ -241,7 +241,7 @@ AND (
         }
     } else {
         redirect_user(
-            'dashboard.php?tab=6&error=' . join($errors, urlencode('<br>'))
+            'dashboard.php?tab=6&error=' . join($errors)
         );
     }
 }

@@ -30,7 +30,7 @@ if ($result) {
 } else {
     $errors[] = urlencode('เกิดข้อผิดพลาดกลับไปที่ลองอีกครั้ง !!');
     redirect_user(
-        '../admin.php?tab=11&error=' . join($errors, urlencode('<br>'))
+        '../admin.php?tab=11&error=' . join($errors)
     );
 }
 echo "<script type='text/javascript'>";

@@ -28,7 +28,7 @@ if ($result) {
 } else {
     $errors[] = urlencode('เกิดข้อผิดพลาดกลับไปที่ลองอีกครั้ง !!');
     redirect_user(
-        '../dashboard.php?tab=9&error=' . join($errors, urlencode('<br>'))
+        '../dashboard.php?tab=9&error=' . join($errors)
     );
 }
 ?>

@@ -23,5 +23,5 @@ if ($result) {
     redirect_user("admin.php?tab=9&msg=$msg");
 } else {
     $errors[] = urlencode('เกิดข้อผิดพลาดกลับไปที่ลองอีกครั้ง !!');
-    redirect_user('admin.php?tab=9&error=' . join($errors, urlencode('<br>')));
+    redirect_user('admin.php?tab=9&error=' . join($errors));
 }

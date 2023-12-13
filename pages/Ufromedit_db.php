@@ -42,10 +42,10 @@ if ($_POST['password'] != '') {
     } else {
         $errors[] = urlencode('เกิดข้อผิดพลาดกลับไปที่การอัปเดตอีกครั้ง !!');
         redirect_user(
-            'admin.php?tab=11&error=' . join($errors, urlencode('<br>'))
+            'admin.php?tab=11&error=' . join($errors)
         );
     }
 } else {
     $errors[] = urlencode('ใส่ข้อมูลให้ครบถ้วน !!');
-    redirect_user('admin.php?tab=11&error=' . join($errors, urlencode('<br>')));
+    redirect_user('admin.php?tab=11&error=' . join($errors));
 }

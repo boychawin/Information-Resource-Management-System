@@ -46,15 +46,15 @@ if (!$errors) {
         } else {
             $errors[] = urlencode('เกิดข้อผิดพลาดกลับไปที่การอัปเดตอีกครั้ง !!');
             redirect_user(
-                'admin.php?tab=17&error=' . join($errors, urlencode('<br>'))
+                'admin.php?tab=17&error=' . join($errors)
             );
         }
     } else {
         $errors[] = urlencode('เกิดข้อผิดพลาดกลับไปที่การอัปเดตอีกครั้ง !!');
         redirect_user(
-            'admin.php?tab=17&error=' . join($errors, urlencode('<br>'))
+            'admin.php?tab=17&error=' . join($errors)
         );
     }
 } else {
-    redirect_user('admin.php?tab=17&error=' . join($errors, urlencode('<br>')));
+    redirect_user('admin.php?tab=17&error=' . join($errors));
 }

@@ -118,7 +118,7 @@ if (isset($_POST['new_booking'])) {
             }
         }
     } else {
-        redirect_user('admin.php?tab=23&error=' . join($errors, urlencode('<br>')));
+        redirect_user('admin.php?tab=23&error=' . join($errors));
     }
 }
 

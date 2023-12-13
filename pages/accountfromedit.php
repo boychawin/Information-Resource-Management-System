@@ -76,7 +76,7 @@ if (isset($_POST['update'])) {
                 );
                 redirect_user(
                     'dashboard.php?tab=4&error=' .
-                        join($errors, urlencode('<br>'))
+                        join($errors)
                 );
             }
         } elseif ($staff_level == 'non-supervisor') {
@@ -106,7 +106,7 @@ if (isset($_POST['update'])) {
                 );
                 redirect_user(
                     'dashboard.php?tab=4&error=' .
-                        join($errors, urlencode('<br>'))
+                        join($errors)
                 );
             }
         } elseif ($staff_level == '') {
@@ -134,7 +134,7 @@ if (isset($_POST['update'])) {
                     'เกิดข้อผิดพลาดกลับไปที่การอัปเดตอีกครั้ง !!'
                 );
                 redirect_user(
-                    'admin.php?tab=4&error=' . join($errors, urlencode('<br>'))
+                    'admin.php?tab=4&error=' . join($errors)
                 );
             }
         } else {
@@ -147,16 +147,16 @@ if (isset($_POST['update'])) {
     } else {
         if ($staff_level == 'supervisor') {
             redirect_user(
-                'dashboard.php?tab=4&error=' . join($errors, urlencode('<br>'))
+                'dashboard.php?tab=4&error=' . join($errors)
             );
         } elseif ($staff_level == 'non-supervisor') {
             redirect_user(
-                'dashboard.php?tab=4&error=' . join($errors, urlencode('<br>'))
+                'dashboard.php?tab=4&error=' . join($errors)
             );
         } elseif ($staff_level == '') {
             //admin
             redirect_user(
-                'admin.php?tab=4&error=' . join($errors, urlencode('<br>'))
+                'admin.php?tab=4&error=' . join($errors)
             );
         }
     }
@@ -206,7 +206,7 @@ if (isset($_POST['password-account'])) {
                     );
                     redirect_user(
                         'dashboard.php?tab=4&error=' .
-                            join($errors, urlencode('<br>'))
+                            join($errors)
                     );
                 }
             } elseif ($staff_level == 'non-supervisor') {
@@ -231,7 +231,7 @@ if (isset($_POST['password-account'])) {
                     );
                     redirect_user(
                         'dashboard.php?tab=4&error=' .
-                            join($errors, urlencode('<br>'))
+                            join($errors)
                     );
                 }
             } elseif ($staff_level == '') {
@@ -255,7 +255,7 @@ if (isset($_POST['password-account'])) {
                     );
                     redirect_user(
                         'admin.php?tab=4&error=' .
-                            join($errors, urlencode('<br>'))
+                            join($errors)
                     );
                 }
             }
@@ -263,16 +263,16 @@ if (isset($_POST['password-account'])) {
     } else {
         if ($staff_level == 'supervisor') {
             redirect_user(
-                'dashboard.php?tab=4&error=' . join($errors, urlencode('<br>'))
+                'dashboard.php?tab=4&error=' . join($errors)
             );
         } elseif ($staff_level == 'non-supervisor') {
             redirect_user(
-                'dashboard.php?tab=4&error=' . join($errors, urlencode('<br>'))
+                'dashboard.php?tab=4&error=' . join($errors)
             );
         } elseif ($staff_level == '') {
             //admin
             redirect_user(
-                'admin.php?tab=4&error=' . join($errors, urlencode('<br>'))
+                'admin.php?tab=4&error=' . join($errors)
             );
         }
     }

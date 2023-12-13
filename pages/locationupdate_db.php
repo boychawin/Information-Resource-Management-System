@@ -90,7 +90,7 @@ if (!$errors) {
                 'เกิดข้อผิดพลาดกลับไปที่การอัปเดตอีกครั้ง !!'
             );
             redirect_user(
-                'admin.php?tab=9&error=' . join($errors, urlencode('<br>'))
+                'admin.php?tab=9&error=' . join($errors)
             );
         }
     }
@@ -101,5 +101,5 @@ if (!$errors) {
     echo '</script>';
     echo 'กรุณาใส่ข้อมูลให้ครบ';
 } else {
-    redirect_user('admin.php?tab=9&error=' . join($errors, urlencode('<br>')));
+    redirect_user('admin.php?tab=9&error=' . join($errors));
 }

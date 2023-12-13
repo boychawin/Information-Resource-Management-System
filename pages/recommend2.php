@@ -129,7 +129,7 @@ if (isset($_POST['accept'])) {
         }
     } else {
         redirect_user(
-            'dashboard.php?tab=14&error=' . join($error, urlencode('<br>'))
+            'dashboard.php?tab=14&error=' . join($error)
         );
     }
 } elseif (isset($_POST['reject'])) {
@@ -251,7 +251,7 @@ if (isset($_POST['accept'])) {
         }
     } else {
         redirect_user(
-            'dashboard.php?tab=14&error=' . join($error, urlencode('<br>'))
+            'dashboard.php?tab=14&error=' . join($error)
         );
     }
 } else {

@@ -317,7 +317,7 @@ if (isset($_POST['register'])) {
             );
         }
     } else {
-        header('Location:index.php?tab=8&error=' . join($errors, '<br>'));
+        header('Location:index.php?tab=8&error=' . join($errors));
     }
 } elseif (isset($_POST['registeradmin'])) {
     $errors = [];
@@ -555,7 +555,7 @@ if (isset($_POST['register'])) {
             );
         }
     } else {
-        header('Location:admin.php?tab=24&error=' . join($errors, '<br>'));
+        header('Location:admin.php?tab=24&error=' . join($errors));
     }
 } elseif (isset($_POST['registeruser'])) {
     $errors = [];
@@ -793,7 +793,7 @@ if (isset($_POST['register'])) {
             );
         }
     } else {
-        header('Location:dashboard.php?tab=19&error=' . join($errors, '<br>'));
+        header('Location:dashboard.php?tab=19&error=' . join($errors));
     }
 } elseif (isset($_POST['make-super'])) {
     if (var_set($_POST['make-supervisor'])) {
@@ -862,7 +862,7 @@ if (isset($_POST['register'])) {
         }
     } else {
         redirect_user(
-            'admin.php?tab=5&error=' . join($error, urlencode('<br>'))
+            'admin.php?tab=5&error=' . join($error)
         );
     }
 } elseif (isset($_POST['accept'])) {
@@ -956,7 +956,7 @@ if (isset($_POST['register'])) {
         }
     } else {
         redirect_user(
-            'admin.php?tab=5&error=' . join($error, urlencode('<br>'))
+            'admin.php?tab=5&error=' . join($error)
         );
     }
 } elseif (isset($_POST['approve'])) {
@@ -998,7 +998,7 @@ if (isset($_POST['register'])) {
             redirect_user("admin.php?tab=2&msg=$msg");
         }
     } else {
-        redirect_user('admin.php?error=' . join($err, urlencode('<br>')));
+        redirect_user('admin.php?error=' . join($err));
     }
 } elseif (isset($_POST['noapprove'])) {
     $err = [];
@@ -1039,7 +1039,7 @@ if (isset($_POST['register'])) {
             redirect_user("admin.php?tab=2&msg=$msg");
         }
     } else {
-        redirect_user('admin.php?error=' . join($err, urlencode('<br>')));
+        redirect_user('admin.php?error=' . join($err));
     }
 } elseif (isset($_POST['reject'])) {
     $error = [];
@@ -1130,7 +1130,7 @@ if (isset($_POST['register'])) {
         }
     } else {
         redirect_user(
-            'admin.php?tab=3&error=' . join($error, urlencode('<br>'))
+            'admin.php?tab=3&error=' . join($error)
         );
     }
 } else {
