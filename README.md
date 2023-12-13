@@ -24,5 +24,5 @@ Password : 123456
 
 ## รูปภาพตัวอย่าง
 
-![admin]('/../images/admin.png')
-![user]('/../images/user.png')
+![admin](/images/admin.png)
+![user](/images/user.png)
