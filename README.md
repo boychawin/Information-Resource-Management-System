@@ -1,6 +1,6 @@
 # Information-Resource-Management-System
 
-Link : <https://boychawin.com/en/blog-detail/514>
+### Read more : <https://boychawin.com/p/Information-Resource-Management-System>
 
 `ต้องแจ้งก่อนครับ ตัวนี้ไม่ใช่โปรแกรมสำเร็จรูป จุดประสงค์ให้นำไปพัฒนาต่อนะครับ`
 
